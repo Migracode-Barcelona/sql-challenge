@@ -1,0 +1,19 @@
+{
+    "files.exclude": {
+        ".*": true
+    },
+    "workbench.editorAssociations": {
+        "*.md": "vscode.markdown.preview.editor",
+    },
+    "sqltools.connections": [
+        {
+            "previewLimit": 50,
+            "server": "localhost",
+            "port": 5432,
+            "driver": "PostgreSQL",
+            "name": "db",
+            "database": "db_name",
+            "username": "postgres"
+        }
+    ]
+}

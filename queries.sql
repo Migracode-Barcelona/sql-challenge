@@ -1,0 +1,2 @@
+CREATE TABLE IF NOT EXISTS first_table(id SERIAL PRIMARY KEY);
+SELECT * FROM first_table;

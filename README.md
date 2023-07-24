@@ -1,9 +1,15 @@
-# MigraCode PostgreSQL + Node.js space 🛰
+# MigraCode SQL challenges 🛢
 
-Here's an empty space with a PostgreSQL database and Node.js set up and connected together. 
+### For each week, follow the instructions in the README.md of each folder.
 
-There is a database called ```db_name``` already created with the username ```postgres```, password ```postgres```, host ```db``` and port ```5432```.
+This repository comes with a PostgreSQL database and Node.js set up and connected together (if opened in a CodeSpace). 
 
+There is a database called ```db_name``` already created with the username ```postgres```, password ```postgres```, host ```db``` and port ```5432```. 
+
+## 💡 To create a new database:
+```
+createdb -h db -p 5432 -U postgres new_db_name_here
+```
 
 ## To access the PostgreSQL database enter the following command in the terminal:
 ```

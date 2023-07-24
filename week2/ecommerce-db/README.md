@@ -18,13 +18,13 @@ To submit this homework write the correct commands for each question here:
 To prepare your environment for this homework, open a terminal and create a new database called `cyf_ecommerce`:
 
 ```sql
-createdb cyf_ecommerce
+createdb -h db -p 5432 -U postgres cyf_ecommerce
 ```
 
 Import the file [`cyf_ecommerce.sql`](./cyf_ecommerce.sql) in your newly created database:
 
 ```sql
-psql -d cyf_ecommerce -f cyf_ecommerce.sql
+psql -U postgres -h db -d cyf_ecommerce -f ecommerce-db/cyf_ecommerce.sql
 ```
 
 Open the file `cyf_ecommerce.sql` in VSCode and make sure you understand all the SQL code. Take a piece of paper and draw the database with the different relations between tables. Identify the foreign keys and make sure you understand the full database schema.
